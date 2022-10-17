@@ -1,0 +1,23 @@
+{
+  "name": "jones-exercise-yammie-restaurant",
+  "version": "1.0.0",
+  "description": "jones exercise",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "start": "nodemon app.js"
+  },
+  "author": "Ian Barzellay",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20",
+    "sinon": "^14.0.1"
+  }
+}
